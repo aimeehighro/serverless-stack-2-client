@@ -47,7 +47,7 @@ class App extends Component {
       isAuthenticated: this.state.isAuthenticated,
       userHasAuthenticated: this.userHasAuthenticated
     };
-
+  
     return (
       !this.state.isAuthenticating &&
       <div className="App container">

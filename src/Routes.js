@@ -22,3 +22,4 @@ export default ({ childProps }) =>
     { /* Finally, catch all unmatched routes */ }
     <Route component={NotFound} />
   </Switch>;
+

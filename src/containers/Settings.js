@@ -1,3 +1,8 @@
+// We are going to add a settings page to our app. This is going to allow users to pay for our service. The flow will look something like this:
+// Users put in their credit card info and the number of notes they want to store.
+// We call Stripe on the frontend to generate a token for the credit card.
+// We then call our billing API with the token and the number of notes.
+// Our billing API calculates the amount and bills the card!
 import React, { Component } from "react";
 import { API } from "aws-amplify";
 import { Elements, StripeProvider } from "react-stripe-elements";
